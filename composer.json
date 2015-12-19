@@ -1,0 +1,30 @@
+{
+    "name": "peyman/jsonui-webserver",
+    "authors": [
+        {
+            "name": "Peyman",
+            "email": "lord.akinak@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.5.9",
+        "sergeytsalkov/meekrodb": "*",
+        "vlucas/valitron": "dev-master",
+        "klein/klein": "^2.1",
+        "robmorgan/phinx": "^0.5.0",
+        "kassner/log-parser": "~1.0"
+    },
+    "autoload": {
+        "classmap": [
+            "runtime/controllers",
+            "runtime/core",
+            "runtime/models",
+            "runtime/modules",
+            "commands/",
+            
+            "resources/public/config"
+        ]
+    }
+    
+}
